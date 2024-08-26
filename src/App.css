@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +33,57 @@
   width: 600px;
   height: 799px;
   background-color: #ffff;
-  margin-top: -319px; 
+  margin-top: -32vh; 
   border-radius: 20px;
+}
+
+.middleTextWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6vh;
+}
+
+.middleH1 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Cabin", sans-serif;
+}
+
+.middleP1 {
+  margin-top: 26px;
+  font-family: "Cabin", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #9CA0A8;
+}
+
+.middleRectangle { 
+  margin-top: 60px;
+}
+
+.middleP2 {
+  margin-top: 30px;
+  font-family: "Cabin", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #9CA0A8;
+}
+
+.middleButton {
+  margin-top: 35px;
+  padding: 14px 35px;
+  border-radius: 70px;
+  border: none;
+  background-color: #5F51FF;
+  color: white;
+  
+}
+
+
+.middleButton p {
+  font-family: "Cabin", sans-serif;
+  font-size: 16px; 
 }
