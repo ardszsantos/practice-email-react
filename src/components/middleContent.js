@@ -2,6 +2,7 @@ import '../App.css';
 
 const MiddleContent = () => {
   return ( 
+    <>
     <div className='middleContainer'>
       <div className='middleTextWrapper'>
         <h1 className='middleH1'>
@@ -21,6 +22,9 @@ const MiddleContent = () => {
         <button className='middleButton'><p>Read more</p></button>
       </div>
     </div>
+
+    </>
+    
   );
 }
 

@@ -12,7 +12,7 @@
   flex-direction: column;
   background-color: #F4F7FF;
   align-items: center;     /* Center horizontally */
-  height: 100vh;    
+  min-height: 100vh;    
 }
 
 .imageContainer {
@@ -33,8 +33,9 @@
   width: 600px;
   height: 799px;
   background-color: #ffff;
-  margin-top: -32vh; 
+  margin-top: -33.5vh; 
   border-radius: 20px;
+  margin-bottom: 33px;
 }
 
 .middleTextWrapper {
@@ -86,4 +87,46 @@
 .middleButton p {
   font-family: "Cabin", sans-serif;
   font-size: 16px; 
+}
+
+
+
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 287px;
+  width: 572px;
+}
+
+.footerHr {
+  width: 100%;
+  margin-top: 12px;
+  opacity: 0.4;
+  margin-bottom: 30px;
+}
+
+
+.footerText {
+  font-family: "Cabin", sans-serif;
+  font-size: 16px; 
+  font-weight: 500;
+  color: #9CA0A8;
+}
+
+
+.footerP1 {
+  margin-bottom: 30px;
+}
+
+
+.footerP2 {
+  margin-bottom: 30px;
+}
+
+.footerP3 {
+  margin-bottom: 30px;
+  text-decoration: underline;
 }
